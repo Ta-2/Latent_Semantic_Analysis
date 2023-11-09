@@ -1,1 +1,5 @@
 # Latent_Semantic_Analysis
+
+学校の課題用リポジトリ
+
+あらかじめ用意されたデータにをLatent_Semantic_Analysis実施し、データに対し次元削減を行う。

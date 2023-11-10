@@ -12,7 +12,6 @@ def illustrate(datas, margin=30):
     g = 0.9*np.array([0.6]*data_num)
     b = 0.9*np.linspace(0.8, 0.1, data_num)
     color = [(c[0], c[1], c[2]) for c in zip(r, g, b)]
-    print(color)
 
     #グラフの表示範囲を計算
     xmax, xmin = max([d[0] for d in datas]), min([d[0] for d in datas])

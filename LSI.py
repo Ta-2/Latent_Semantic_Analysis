@@ -73,3 +73,4 @@ print("dimension_pressed_data:")
 print(dimension_pressed_data)
 
 ill.illustrate(dimension_pressed_data)
+ill.show()

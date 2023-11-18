@@ -67,8 +67,8 @@ print(Cumulative_Proportion)
 
 #新しい基底での座標を計算する
 basis_num = 2   #用意する基底の数
-print((U[:,0:2]).T)
-dimension_pressed_data = np.dot((U[:,0:2]).T, X).T
+print(V[0:2,:])
+dimension_pressed_data = np.dot(X, V[0:2,:].T)
 print("dimension_pressed_data:")
 print(dimension_pressed_data)
 
